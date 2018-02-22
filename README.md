@@ -66,3 +66,11 @@ Git loglarını tek satırda olacak şekilde derli toplu gösterir.
 `git log --follow -p -- <dosya yolu>`<br>
 Belirtilen dosyada yapılan tüm değişiklikleri detaylı olarak gösterir.<br>
 [İlgili Stackoverflow sorusu](https://stackoverflow.com/questions/278192/view-the-change-history-of-a-file-using-git-versioning)
+
+`git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short` <br>
+Git loglarını grafiksel olarak göstermeye yarayan bir komut
+Bu komudu alias olarak tanımlayıp ezberlemeye gerek yok. Aşağıdaki komut bunu yapabiliriz:<br>
+`git config --add alias.hist log "--pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"`
+<br>
+Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
+
