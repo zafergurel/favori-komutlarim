@@ -70,7 +70,7 @@ Belirtilen dosyada yapılan tüm değişiklikleri detaylı olarak gösterir.<br>
 `git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short` <br>
 Git loglarını grafiksel olarak göstermeye yarayan bir komut
 Bu komudu alias olarak tanımlayıp ezberlemeye gerek yok. Aşağıdaki komut bunu yapabiliriz:<br>
-`git config --add alias.hist log "--pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"`
+`git config --add alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"`
 <br>
 Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
 
