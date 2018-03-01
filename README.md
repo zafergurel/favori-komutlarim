@@ -74,3 +74,8 @@ Bu komudu alias olarak tanımlayıp ezberlemeye gerek yok. Aşağıdaki komut bu
 <br>
 Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
 
+`git push origin :<tag ismi>`<br>
+`git push --delete origin <tag ismi>`
+Uzak repodaki (origin) bir tagı silmek için kullanılır.
+
+
