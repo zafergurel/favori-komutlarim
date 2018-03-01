@@ -75,7 +75,11 @@ Bu komudu alias olarak tanımlayıp ezberlemeye gerek yok. Aşağıdaki komut bu
 Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
 
 `git push origin :<tag ismi>`<br>
-`git push --delete origin <tag ismi>`
+`git push --delete origin <tag ismi>`<br>
 Uzak repodaki (origin) bir tagı silmek için kullanılır.
+
+## Önemli Yer İmleri
+Şunları da buraya ekleyelim.<br>
+[Gönderilmiş commitleri geri alma - SO](https://stackoverflow.com/questions/22682870/git-undo-pushed-commits)
 
 
