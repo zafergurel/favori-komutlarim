@@ -78,6 +78,12 @@ Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
 `git push --delete origin <tag ismi>`<br>
 Uzak repodaki (origin) bir tagı silmek için kullanılır.
 
+`git diff HEAD~5 HEAD --name-status`<br>
+`git diff HEAD~5 HEAD --stat`<br>
+Son 5 committe değişen dosyaları gösteren komutlar.
+İlki sadece dosya isimleri ile işlemi (A: Added, M: Modified, D: Deleted R#: Renamed) gösterir.
+İkincisi ise dosyalardaki işlemlerin istatistiki bilgilerini (silinme, ekleme sayıları gibi) verir.
+
 ## Önemli Yer İmleri
 Şunları da buraya ekleyelim.<br>
 [Gönderilmiş commitleri geri alma - SO](https://stackoverflow.com/questions/22682870/git-undo-pushed-commits)
