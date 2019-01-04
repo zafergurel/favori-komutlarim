@@ -33,6 +33,14 @@ Buradaki origin, reponun kısa adı; master ise dalın ismidir. Bunlar değişti
 Uzaktaki repodan değişiklikleri çekip mevcut dosyalarla birleştirir.
 `git fetch` ve `git merge` işlemlerinin tek seferde yapılmasıdır.
 
+`git stash`<br>
+`git stash apply`<br>
+Eğer projede bazı dosyalar değişmişken uzak repodan dosyalar çekilmek ve birleştirilmek istenirse (git pull ile), dosyalar çekilir (git fetch) ama birleştirme işlemi (git merge) gerçekleşmez. 
+
+Bunun için bir yöntem, değişen dosyaları bir yerde saklamaktır. Bunun için `git stash` komutu kullanılır. Bu komut ile değişmiş dosyalar saklanır ve branchteki son temiz çalışan kopyaya (son commite) dönülür. Sonrasında `git pull` komutu ile işlem gerçekleştirilir. Eğer `git pull` yapıldıktan sonra birleştirme hatası alındıysa `git stash` yaptıktan sonra sadece `git merge` yapılması yeterlidir. Çünkü `git pull` aslında fetch ve merge işlemlerinin beraber yapılmasıdır, fetch yani dosyaların çekilmesi düzgün çalışmıştır ama merge'te sorun olmuştur. stash komutu ile temiz kopyaya dönülerek `git merge` yapılabilir. 
+
+`git pull` ile uzak repodan yeni sürüm çekilip birleştirildikten sonra biraz önce `git stash` ile sakladığımız değişikliklerimizi yeni sürümün üzerine koyabiliriz. Bunun için de `git stash apply` komutu çalıştırılır. Değişiklikler yeni sürümün üzerine uygulanır. Sorun olursa merge hatası verilir ve bunların manuel olarak düzeltilmesi gerekir.
+
 `git push <repo adı> <dal>`<br>
 Uzak repodaki belirtilen dala yapılan değişiklikler gönderilir.<br>
 `git push -u <repo> <dal>` olarak `-u` parametresi kullanılırsa varsayılan uzak dal belirtilmiş olur ve sonraki gönderme işlemlerinde sadece `git push` kullanılabilir.
