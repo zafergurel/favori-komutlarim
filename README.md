@@ -92,7 +92,7 @@ Son 5 committe değişen dosyaları gösteren komutlar.
 İlki sadece dosya isimleri ile işlemi (A: Added, M: Modified, D: Deleted R#: Renamed) gösterir.
 İkincisi ise dosyalardaki işlemlerin istatistiki bilgilerini (silinme, ekleme sayıları gibi) verir.
 
-`git diff-tree --no-commit-id --name-only -r <commit-id>`
+`git diff-tree --no-commit-id --name-only -r <commit-id>`<br>
 Bir committe değişen dosyaları gösterir. --name-only yerine --name-status ve --stat konarak da değişen dosyalar hakkında farklı bilgiler alınabilir. <commit-id> yerine commite ait bir hash değeri gelebileceği gibi, HEAD (son commit) ya da son committen 3 commit öncesi için HEAD~3 kullanılabilir.
 
 ## Önemli Yer İmleri
