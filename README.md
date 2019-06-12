@@ -13,6 +13,9 @@ Dizinde değişmiş tüm dosyaları commit edilmek üzere stage ortamına alır.
 Stage ortamına alınmış dosyaları, commit eder.
 -m ile yapılan commit işleminin neden yapıldığı yazılır (50 karakteri geçmeyelim).
 
+`git commit --amend -m "Commit mesajı"`<br>
+Son commiti yeni eklemeler ya da düzenlemeleri dahil ederek değiştirir. Böylece tarihçede iki ayrı kayıt olmaz. Son yaptığınız commiti değiştirmek için kullanabilirsiniz.
+
 `git log`<br>
 Commit edilmiş tüm değişiklikleri listeler.
 
