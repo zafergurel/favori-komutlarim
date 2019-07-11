@@ -108,7 +108,6 @@ Katkıda bulunan kişilerin katkı sayısı, ad ve soyad bilgilerini katkıda bu
 Şunları da buraya ekleyelim.<br>
 [Gönderilmiş commitleri geri alma - SO](https://stackoverflow.com/questions/22682870/git-undo-pushed-commits)
 
-[Silinmiş dosyayı geri getirme - SO]
-(https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository/953573)
+[Silinmiş dosyayı geri getirme - SO](https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository/953573)
 
 
