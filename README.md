@@ -110,4 +110,6 @@ Katkıda bulunan kişilerin katkı sayısı, ad ve soyad bilgilerini katkıda bu
 
 [Silinmiş dosyayı geri getirme - SO](https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository/953573)
 
+[Git Sunumu](https://www.slideshare.net/ZaferGrel1/git-sunumu)
+
 
