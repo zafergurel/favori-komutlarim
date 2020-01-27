@@ -115,4 +115,11 @@ Katkıda bulunan kişilerin katkı sayısı, ad ve soyad bilgilerini katkıda bu
 
 [Git Sunumu](https://www.slideshare.net/ZaferGrel1/git-sunumu)
 
+## Windows'ta Git Bash Kullanırken SSH Anahtarı Parolasını Bir Kere Girmek
+Eğer SSH anahtarınızı bir parolayla koruyorsanız (ki öyle de yapmalısınız), her uzak Git sunucusuyla bir işlem yapacağınız zaman bu parolayı girmeniz gerekir. Windows'ta Git Bash kullanıyorsanız ~/.bashrc dosyanıza aşağıdaki satırları eklerseniz, Git Bash'i açtığınızda bir kere SSH anahtarınıza ait parolanız girmeniz istenir ve bu terminalde yapacağınız sonraki işlemlerde bir daha parola girmenize gerek kalmaz.
+
+```
+eval `ssh-agent -s`
+ssh-add ~/.ssh/*_rsa
+```
 
