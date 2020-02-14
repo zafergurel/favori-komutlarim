@@ -123,3 +123,19 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/*_rsa
 ```
 
+## Git İçin Kullandığım Aliaslar
+Aşağıda sürekli kullandığım Git komutları için hazırladığım aliaslar var. Bunları ~/.bashrc dosyasına ekleyebilirsiniz.
+```
+alias gs='git status';
+alias gp='git pull';
+alias gm='git merge';
+alias gps='git push';
+alias gc='git commit';
+alias gch='git checkout';
+alias ga='git add';
+alias gst='git stash';
+alias gd='git diff';
+alias gl='git log';
+alias gh='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short';
+alias gpso='git push -u origin `git branch --show-current`';
+```
