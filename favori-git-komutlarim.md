@@ -107,6 +107,9 @@ Bir committe değişen dosyaları gösterir. --name-only yerine --name-status ve
 `git shortlog -s -n`<br>
 Katkıda bulunan kişilerin katkı sayısı, ad ve soyad bilgilerini katkıda bulunma (commit) sayılarına göre sıralı şekilde gösterir.
 
+`git shortlog -s -n --all --no-merges`<br>
+Yukarıdakine ek olarak --all ve --no-merges eklenerek, tüm dallardaki (branch) katkıda bulunma sayısı hesaplanır; --no-merges parametresi ile de birleştirme işlemleri (merge commit) dikkate alınmaz.
+
 ## Önemli Yer İmleri
 Şunları da buraya ekleyelim.<br>
 [Gönderilmiş commitleri geri alma - SO](https://stackoverflow.com/questions/22682870/git-undo-pushed-commits)
