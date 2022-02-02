@@ -8,7 +8,7 @@
 - Geliştiriciler için ücretsiz servisler <br>
   <https://free-for.dev/>
   
-- Linux hardening: A 15-step checklist for a secure Linux server (May 10, 2017)
+- Linux hardening: A 15-step checklist for a secure Linux server (May 10, 2017) <br>
   <https://www.pluralsight.com/blog/it-ops/linux-hardening-secure-server-checklist>
   
 - Sunum: Netflix: From Clouds to Roots (Sep. 25, 2014) <br>
