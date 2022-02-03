@@ -72,6 +72,23 @@ Hangi dalda olunduğu, değiştirilmiş veya eklenmiş dosyalar gösterilir.
 `git show <commit-id>`<br>
 Commit id kullanılarak ilgili committe ne değiştiğini gösterir. eğer `--no-patch` argümanı kullanılırsa, git log gösteriminde olduğu gibi sadece commit ile ilgili detaylar gösterilir. 
 
+## Etiketleme (Tagging)
+`git tag <etiket ismi>`<br>
+Mevcut commiti (HEAD), verilen isim ile etiketler.
+
+`git push origin <etiket ismi>`<br>
+Etiketi, origin'e gönderir.
+
+`git push --tags`<br>
+Tüm etiketleri origine gönderir. Önerilmez.
+
+`git push origin :<tag ismi>`<br>
+`git push --delete origin <tag ismi>`<br>
+Uzak repodaki (origin) bir tagı silmek için kullanılır.
+
+`git tag <etiket ismi> <commit id>`<br>
+Belirtilen commiti, verilen isim ile etiketler.
+
 ## Faydalı İşlemler
 `git branch -vv`<br>
 Sürüm dallarının (branch) detaylı listelemesini yapar.
@@ -90,10 +107,6 @@ Bu komudu alias olarak tanımlayıp ezberlemeye gerek yok. Aşağıdaki komut bu
 `git config --add alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"`
 <br>
 Sonrasında `git hist` komudu ile grafiksel olarak logları inceleyebiliriz.
-
-`git push origin :<tag ismi>`<br>
-`git push --delete origin <tag ismi>`<br>
-Uzak repodaki (origin) bir tagı silmek için kullanılır.
 
 `git diff HEAD~5 HEAD --name-status`<br>
 `git diff HEAD~5 HEAD --stat`<br>
