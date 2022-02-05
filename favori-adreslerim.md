@@ -22,6 +22,9 @@
   
   **The Actor Model in 10 Minutes** <br>
   <https://www.brianstorti.com/the-actor-model/>
+  
+- A cartoon intro to WebAssembly<br>
+  <https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/>
 
 ## Geliştiriciler için Araçlar
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
