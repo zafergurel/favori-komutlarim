@@ -19,7 +19,7 @@ Tüm ağ bağlantılarını listelemek için kullanılır.
 - u: UDP bağlantılarını göster
 - p: Program bilgisini göster
 
-`curl -L -s -o /dev/null -w "%{http_code}" <address>"`<br>
+`curl -L -s -o /dev/null -w "%{http_code}" <address>`<br>
 Bir URL'ye bağlanıp dönen HTTP durum kodunu öğrenmek için kullanılır. <br>
 - L: Location headerı gelirse, header içinde gelen adrese bağlanır.
 - s: curl sessiz modda çalışsın.
