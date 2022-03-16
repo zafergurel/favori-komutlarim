@@ -29,7 +29,10 @@
 ## Geliştiriciler için Araçlar
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
   <https://free-for.dev>
-  
+
+## Tasarım için Araçlar
+- **Çevrimiçi SVG Editörü**<br>
+  <https://boxy-svg.com>
   
   
 
