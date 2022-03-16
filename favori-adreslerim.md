@@ -25,6 +25,9 @@
   
 - A cartoon intro to WebAssembly<br>
   <https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/>
+  
+- What does void 0 mean?<br>
+<https://stackoverflow.com/questions/7452341/what-does-void-0-mean>
 
 ## Geliştiriciler için Araçlar
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
