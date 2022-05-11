@@ -33,7 +33,7 @@
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
   <https://free-for.dev>
   
-## Postgresql
+## PostgreSQL Araçları
 - **pgtune - PostgreSQL Config Tuner** <br>
   <https://linux.die.net/man/8/pgtune> <br>
   Web Arabirimi: <https://pgtune.leopard.in.ua/>
