@@ -32,6 +32,11 @@
 ## Geliştiriciler için Araçlar
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
   <https://free-for.dev>
+  
+## Postgresql
+- **pgtune - PostgreSQL Config Tuner** <br>
+  <https://linux.die.net/man/8/pgtune> <br>
+  Web Arabirimi: <https://pgtune.leopard.in.ua/>
 
 ## Tasarım için Araçlar
 - **Çevrimiçi SVG Editörü**<br>
