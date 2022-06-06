@@ -32,6 +32,9 @@
 - What does void 0 mean?<br>
 <https://stackoverflow.com/questions/7452341/what-does-void-0-mean>
 
+- **The Log: What every software engineer should know about real-time data's unifying abstraction** <br>
+ <https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying>
+
 ## Geliştiriciler için Araçlar
 - **Geliştiriciler için ücretsiz kullanım sağlayan servislerin listesi** <br>
   <https://free-for.dev>
