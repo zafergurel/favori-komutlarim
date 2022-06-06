@@ -5,6 +5,9 @@
 
 - **Linux hardening: A 15-step checklist for a secure Linux server (May 10, 2017)** <br>
   <https://www.pluralsight.com/blog/it-ops/linux-hardening-secure-server-checklist>
+  
+- **Optimizing web servers for high throughput and low latency** <br>
+  <https://dropbox.tech/infrastructure/optimizing-web-servers-for-high-throughput-and-low-latency>
 
 ## Devops
 
