@@ -26,3 +26,6 @@ Bir URL'ye bağlanıp dönen HTTP durum kodunu öğrenmek için kullanılır. <b
 - o: Çıktının hangi dosyaya yazılacağı belirlenir. Yukarıda yazılmış olan /dev/null ise Linux'ta özel bir dosya tipidir ve buraya yazılan hiçbir şey dikkate alınmaz.
 
 curl için daha fazla bilgi için bakınız: https://curl.se/docs/manpage.html
+
+`sudo mkdir /mnt/root && sudo mount --bind / /mnt/root`
+Mount işleminden dolayı gölgelenmiş dizinlere erişmek için root'u mountlamak.
