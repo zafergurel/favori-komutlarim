@@ -27,5 +27,5 @@ Bir URL'ye bağlanıp dönen HTTP durum kodunu öğrenmek için kullanılır. <b
 
 curl için daha fazla bilgi için bakınız: https://curl.se/docs/manpage.html
 
-`sudo mkdir /mnt/root && sudo mount --bind / /mnt/root`
+`sudo mkdir /mnt/root && sudo mount --bind / /mnt/root`<br>
 Mount işleminden dolayı gölgelenmiş dizinlere erişmek için root'u mountlamak.
