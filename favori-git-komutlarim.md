@@ -122,6 +122,10 @@ Katkıda bulunan kişilerin katkı sayısı, ad ve soyad bilgilerini katkıda bu
 
 `git shortlog -s -n --all --no-merges`<br>
 Yukarıdakine ek olarak --all ve --no-merges eklenerek, tüm dallardaki (branch) katkıda bulunma sayısı hesaplanır; --no-merges parametresi ile de birleştirme işlemleri (merge commit) dikkate alınmaz.
+ 
+`git log <tag veya commit id>..HEAD --no-merges --pretty=format:"%h %<(15,trunc)%an %cd %<(80,trunc)%s" --date=short` <br>
+ Bir tag ya da commit'ten şu ana kadar yapılmış değişiklikleri, merge commitleri dikkate almadan özet olarak gösterir. Özellikle
+   yeni sürüm çıkarırken önceki sürümden (tag'e bakarak) bu yana yapılmış değişiklikleri raporlamak için kullanılabilir.
 
 ## Önemli Yer İmleri
 Şunları da buraya ekleyelim.<br>
