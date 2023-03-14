@@ -144,7 +144,7 @@ ssh-add ~/.ssh/*_rsa
 ```
 
 ## Git İçin Kullandığım Aliaslar
-Aşağıda sürekli kullandığım Git komutları için hazırladığım aliaslar var. Bunları ~/.bashrc dosyasına ekleyebilirsiniz.
+Aşağıda sürekli kullandığım Git komutları için hazırladığım aliaslar var. Bunları ~/.bashrc ya da ~/.zshrc (Mac) dosyasına ekleyebilirsiniz.
 ```
 alias gs='git status';
 alias gp='git pull';
