@@ -29,3 +29,6 @@ curl için daha fazla bilgi için bakınız: https://curl.se/docs/manpage.html
 
 `sudo mkdir /mnt/root && sudo mount --bind / /mnt/root`<br>
 Mount işleminden dolayı gölgelenmiş dizinlere erişmek için root'u mountlamak.
+
+`find . -type f -mtime +30 -ls | awk '{sum += $7 } END {print sum}'`<br>
+Mevcut dizinde 30 günden eski dosyaların toplam tuttuğu yeri byte cinsinden gösterir.
