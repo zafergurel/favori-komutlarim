@@ -32,3 +32,6 @@ Mount işleminden dolayı gölgelenmiş dizinlere erişmek için root'u mountlam
 
 `find . -type f -mtime +30 -ls | awk '{sum += $7 } END {print sum}'`<br>
 Mevcut dizinde 30 günden eski dosyaların toplam tuttuğu yeri byte cinsinden gösterir.
+
+`sudo nsenter -t $(docker inspect -f '{{.State.Pid}}' container_name_or_id) -n ss -ltu`<br>
+iproute2 paketi yüklüyse ismi ya da id'si verilmiş docker container'ının TCP ve UDP bağlantılarını listeler.
