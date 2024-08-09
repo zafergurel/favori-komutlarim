@@ -158,4 +158,5 @@ alias gd='git diff';
 alias gl='git log';
 alias gh='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short';
 alias gpso='git push -u origin `git branch --show-current`';
+alias add-ssh-key='eval `ssh-agent -s`; ssh-add ~/.ssh/*_rsa';
 ```
