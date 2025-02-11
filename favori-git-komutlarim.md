@@ -142,6 +142,11 @@ Eğer SSH anahtarınızı bir parolayla koruyorsanız (ki öyle de yapmalısın�
 eval `ssh-agent -s`
 ssh-add ~/.ssh/*_rsa
 ```
+Eğer her terminal açtığınızda parola girmek istemiyorsanız aşağıdaki satırı .bashrc dosyasınıza ekleyip `add-ssh-key` komutunu istediğiniz zaman çalıştırıp SSH anahtarınıza ait parolanızı girebilirsiniz. Önceden girdiyseniz bir daha parola girmeniz de istenmez.
+
+```
+alias add-ssh-key='if ! ssh-add -L 1>/dev/null; then eval `ssh-agent -s`; ssh-add ~/.ssh/*_rsa; else echo "ssh key already added"; fi;';
+```
 
 ## Git İçin Kullandığım Aliaslar
 Aşağıda sürekli kullandığım Git komutları için hazırladığım aliaslar var. Bunları ~/.bashrc ya da ~/.zshrc (Mac) dosyasına ekleyebilirsiniz.
